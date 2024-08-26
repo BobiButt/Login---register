@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(119, 199, 66);filter: blur(100px); */
+
+}
+.back
+{
+    
+    width: 100vw;
+    height: 100vh;
+background-color: rgb(196, 190, 190);
+    /* filter: blur(100px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    padding: 6%;
+   
+}
+.page_left{
+    
+    background-image: url(../img/Free\ Vector\ _\ Dark\ graphic\ wavy\ wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: "Matemasie", sans-serif;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+width: 50%;
+
+}
+.page_left h1{
+    /* color:rgb(112, 108, 108); */
+    color: aliceblue;
+}
+form{
+    width: 50%;
+    font-family: "Indie Flower", cursive;
+/* border:1px solid black ; */
+background-color: white;
+/* justify-content: center; */
+padding: 5% 7% 0% 7%;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+
+height: 100%;
+
+
+}
+form a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    transition: all 0.5s ease;
+}
+form a:hover{
+    text-decoration:none;
+    color: black;
+}
+.email,.password{
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: all 0.5s ease;
+}
+.email:focus,.password:focus{
+   border: 0px;
+}
+
+form button{
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+/* ====================================================================================================================== */
+
+
